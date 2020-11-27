@@ -1,0 +1,24 @@
+/* bg1 : 배경 색 적용 */
+.bg1 {
+    background-color: #ddd;
+}
+
+/* bg2 : 배경으로 작은 이미지 적용 */
+.bg2 {
+    background-image: url(../img/logo.gif);
+}
+
+/* bg3 : 배경으로 큰 이미지 적용 */
+.bg3 {
+    background-image: url(../img/mainBanner_202011050556067510.jpg);
+}
+
+/* body : 배경 이미지 넣고 반복, 위치, 고정 효과 적용 */
+body {
+    /* background-image: url(../img/mallProdut_202010270409107730.png);
+    background-repeat: no-repeat;
+    background-position: center 450px;
+    background-attachment: fixed; */
+    background: url(../img/mallProdut_202010270403272190.png)
+        repeat center 500px fixed;
+}
